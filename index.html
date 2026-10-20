@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Datenschutzerklärung für die App System Audio Recorder">
+  <title>Datenschutzerklärung – System Audio Recorder</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --background: #17151f;
+      --surface: #24202c;
+      --border: #625b6f;
+      --text: #f4f1f7;
+      --muted: #d8d3df;
+      --accent: #1a73e8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+      line-height: 1.65;
+    }
+    header {
+      padding: 3rem 1.25rem 2.5rem;
+      background: var(--accent);
+    }
+    header div, main, footer {
+      width: min(900px, 100%);
+      margin: 0 auto;
+    }
+    h1 { margin: 0 0 .4rem; font-size: clamp(2rem, 6vw, 3.25rem); }
+    header p { margin: 0; font-size: 1.1rem; }
+    main { padding: 2rem 1.25rem 3rem; }
+    section {
+      margin: 0 0 1.25rem;
+      padding: 1.25rem 1.4rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+    }
+    h2 { margin-top: 0; font-size: 1.35rem; }
+    p, ul { margin-bottom: .7rem; }
+    li + li { margin-top: .35rem; }
+    a { color: #8fbdff; }
+    code { color: #dbe9ff; overflow-wrap: anywhere; }
+    .notice {
+      border-left: 5px solid var(--accent);
+    }
+    footer {
+      padding: 0 1.25rem 2.5rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Datenschutzerklärung</h1>
+      <p>System Audio Recorder · Version 1.1.1</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="notice">
+      <h2>Kurzfassung</h2>
+      <p>
+        System Audio Recorder verarbeitet Tonaufnahmen ausschließlich lokal auf
+        dem Gerät. Die App übermittelt keine Aufnahmen an den Entwickler, betreibt
+        kein Benutzerkonto und verwendet keine Werbung, Analyse- oder
+        Trackingdienste. Die Aufnahme beginnt nur nach einer ausdrücklichen Aktion
+        des Nutzers.
+      </p>
+    </section>
+
+    <section>
+      <h2>1. Verantwortlicher und Kontakt</h2>
+      <p>
+        Verantwortlich für die App und diese Datenschutzerklärung:<br>
+        <strong>Yalikun Mijiti</strong><br>
+        <strong>Unterdorf 10 Schäftlarn - 82069 Deutschland (DE)</strong><br>
+        E-Mail: <a href="mailto:yalikun.mijiti@gmail.com">yalikun.mijiti@gmail.com</a>
+      </p>
+    </section>
+
+    <section>
+      <h2>2. Zweck und Funktionsweise der App</h2>
+      <p>Die App ermöglicht folgende Aufnahmearten:</p>
+      <ul>
+        <li>Aufnahme des von Android freigegebenen Systemaudios,</li>
+        <li>Aufnahme über das Smartphone-Mikrofon sowie</li>
+        <li>kombinierte Aufnahme von Systemaudio und Mikrofon.</li>
+      </ul>
+      <p>
+        Bei einer kombinierten Aufnahme verarbeitet die App beide Audiospuren
+        lokal und erzeugt daraus eine gemeinsame WAV-Datei. Eine Übertragung an
+        einen Server findet nicht statt.
+      </p>
+    </section>
+
+    <section>
+      <h2>3. Verarbeitete Daten</h2>
+      <p>Abhängig von der gewählten Funktion verarbeitet die App lokal:</p>
+      <ul>
+        <li>vom Mikrofon erfasste Sprache, Musik und Umgebungsgeräusche,</li>
+        <li>von Android zur Aufnahme freigegebenes Systemaudio,</li>
+        <li>technische Informationen zur gewählten Audioquelle und zum Audioformat,</li>
+        <li>Aufnahmedauer und Lautstärkepegel sowie</li>
+        <li>die vom Nutzer gewählte Sprache der App.</li>
+      </ul>
+      <p>
+        Die App erfasst keine Kontakte, Standortdaten, Nachrichten, Fotos oder
+        Werbe-ID. Sie erstellt kein Nutzerprofil.
+      </p>
+    </section>
+
+    <section>
+      <h2>4. Android-Berechtigungen</h2>
+      <ul>
+        <li>
+          <strong>Mikrofon:</strong> erforderlich für Mikrofon- und kombinierte
+          Aufnahmen. Ohne diese Berechtigung wird kein Mikrofonsignal aufgenommen.
+        </li>
+        <li>
+          <strong>Bildschirm-/Audiofreigabe (MediaProjection):</strong> Android
+          zeigt vor einer Systemaudioaufnahme einen eigenen Bestätigungsdialog.
+          Die App verwendet die Freigabe ausschließlich für das von Android
+          bereitgestellte Audiosignal.
+        </li>
+        <li>
+          <strong>Benachrichtigungen und Foreground-Service:</strong> informieren
+          über einen vorbereiteten oder laufenden Aufnahmedienst und ermöglichen
+          den zuverlässigen Betrieb im Hintergrund.
+        </li>
+        <li>
+          <strong>Über anderen Apps einblenden:</strong> wird für das verschiebbare
+          Bedienfenster mit Start, Pause, Fortsetzen und Stopp verwendet.
+        </li>
+        <li>
+          <strong>Netzwerkstatus/Internet:</strong> Die aktuelle App-Version nutzt
+          diese Berechtigungen nicht zum Hochladen von Audio- oder Nutzerdaten.
+        </li>
+      </ul>
+      <p>Berechtigungen können in den Android-Systemeinstellungen widerrufen werden.</p>
+    </section>
+
+    <section>
+      <h2>5. Speicherung und Löschung</h2>
+      <p>
+        Während der Aufnahme können vorübergehend Audiodaten im privaten
+        Cache-Verzeichnis der App verarbeitet werden. Nach dem Stoppen wird die
+        fertige WAV-Datei über Android MediaStore unter
+        <code>Interner Speicher/Music/SystemAudioRecorder</code> gespeichert.
+        Temporäre Arbeitsdateien werden anschließend gelöscht.
+      </p>
+      <p>
+        Die fertigen Aufnahmen bleiben auf dem Gerät, bis der Nutzer sie selbst
+        löscht, beispielsweise über einen Dateimanager oder eine Musik-App. Wegen
+        des öffentlichen Speicherorts können andere Apps mit einer entsprechenden
+        Android-Berechtigung auf diese Dateien zugreifen.
+      </p>
+    </section>
+
+    <section>
+      <h2>6. Weitergabe und Übermittlung</h2>
+      <p>
+        Der Entwickler erhält weder Aufnahmen noch sonstige durch die App erzeugte
+        Inhalte. Die App verkauft, vermietet oder übermittelt keine Audio- oder
+        Nutzerdaten an Dritte. Sie enthält keine Werbe-, Analyse- oder
+        Tracking-SDKs.
+      </p>
+      <p>
+        Entscheidet sich der Nutzer außerhalb der App dazu, eine gespeicherte
+        Aufnahme zu teilen oder über einen Cloud-Dienst zu sichern, gelten die
+        Datenschutzbestimmungen des jeweils ausgewählten Dienstes.
+      </p>
+    </section>
+
+    <section>
+      <h2>7. Lokale Einstellungen und Android-Backup</h2>
+      <p>
+        Die gewählte App-Sprache wird lokal als Einstellung gespeichert. Je nach
+        Gerätekonfiguration kann Android lokale App-Einstellungen über den vom
+        Nutzer eingerichteten Systemsicherungsdienst sichern. Der Entwickler hat
+        keinen Zugriff auf diese Sicherung.
+      </p>
+    </section>
+
+    <section>
+      <h2>8. Hosting dieser Datenschutzerklärung</h2>
+      <p>
+        Diese Webseite wird über GitHub Pages bereitgestellt. Beim Aufruf kann
+        GitHub insbesondere die IP-Adresse und technische Zugriffsdaten zu
+        Sicherheits- und Betriebszwecken verarbeiten. Weitere Informationen
+        enthält die
+        <a href="https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement"
+           rel="noopener noreferrer">Datenschutzerklärung von GitHub</a>.
+      </p>
+    </section>
+
+    <section>
+      <h2>9. Anfragen zum Datenschutz</h2>
+      <p>
+        Da Audioaufnahmen und App-Einstellungen lokal bleiben, kann der Entwickler
+        diese Daten weder einsehen noch berichtigen oder löschen. Datenschutzfragen
+        zur App können über die oben genannte E-Mail-Adresse gestellt werden.
+        Personenbezogene Angaben aus einer solchen Anfrage werden nur zur
+        Bearbeitung und Dokumentation der Anfrage verwendet und anschließend im
+        Rahmen der gesetzlichen Aufbewahrungspflichten gelöscht.
+      </p>
+    </section>
+
+    <section>
+      <h2>10. Änderungen dieser Datenschutzerklärung</h2>
+      <p>
+        Diese Erklärung wird angepasst, wenn sich Funktionen, Berechtigungen oder
+        die Datenverarbeitung der App ändern. Die jeweils aktuelle Fassung ist
+        unter dieser Internetadresse abrufbar.
+      </p>
+      <p><strong>Stand: 20. Oktober 2026</strong></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Yalikun Mijiti · System Audio Recorder</p>
+  </footer>
+</body>
+</html>
